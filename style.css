@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    text-align: center;
+
 }
 li {
     list-style: none;
@@ -12,12 +12,13 @@ a {
 
 #mainNav {
     display: flex;
-    justify-content: flex-end
+    justify-content: flex-end;
 }
 
 .topnav {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .topnav > li {
@@ -30,10 +31,12 @@ a {
     height: 90vh;
     display: flex;
     justify-content: center;
+    align-content: center;
     align-items: center;
     flex-direction: column;
 
 }
+
 
 
 footer {
