@@ -1,70 +1,100 @@
 * {
     margin: 0;
     padding: 0;
-
-}
-li {
-    list-style: none;
-}
-a {
-    text-decoration: none;
-}
-
-#mainNav {
+    box-sizing: border-box;
+  }
+  
+  .mainNav {
     display: flex;
     justify-content: flex-end;
-}
-
-.topnav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.topnav > li {
+  }
+  
+  .mainNav li {
+    list-style: none;
+    display: inline-block;
     padding: 6px;
-}
-
-#maincontent {
+  }
+  
+  .mainNav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     margin: auto;
     width: 100%;
-    height: 90vh;
+    height: 80vh;
+    
+  }
+  
+  /*  #searchcontainer {
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
     flex-direction: column;
-
-}
-
-
-
-footer {
-    background-color: #f2f2f2;
+   } */
+  
+  #searchbarcontainer {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ebecef;
+    border-radius: 20px; 
+    transition: box-shadow .3s;
+  }
+  
+  #searchbarcontainer:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+  #logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+  }
+  
+  .searchbar {
+    width: 500px;
+    height: 25px;
+  }
+  
+  input {
+    outline: none;
+    border-color: transparent;
+    font-size: 1.1rem;
+  }
+  
+  .icon {
+    opacity: 0.5;
+  }
+  
+  
+  .searchbar-buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  footer {
     display: flex;
     justify-content: space-between;
-}
-
-footer a {
-    color: #000;
-}
-
-.bottomnav1 {
+  }
+  
+  .bottomnav1 ul {
     display: flex;
-    justify-content: space-between;
-
-}
-
-.bottomnav1 > li {
-    padding: 8px;
-}
-
-.bottomnav2 {
+  }
+  .bottomnav1 li {
+    list-style: none;
+    padding: 6px;
+  }
+  
+  .bottomnav2 ul {
     display: flex;
-    justify-content: space-around;
-
-}
-
-.bottomnav2 > li {
-    padding: 8px;
-}
+  }
+  .bottomnav2 li {
+    list-style: none;
+    padding: 6px;
+  }
