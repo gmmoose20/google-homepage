@@ -1,50 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Homepage</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+  <meta charset="UTF-8">
+  <title>Google Homepage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <header>
+  <header>
     <nav class="mainNav">
       <ul>
-        <li><a href="#gmail">Gmail</a></li>
-        <li><a href="#images">Images</a></li>
-        <li><button>Sign in</button></li>
+        <li><a href="#gmail" class="gmail">Gmail</a></li>
+        <li><a href="#images" class="images">Images</a></li>
+        <li><a href="#signin" class="signin"> Sign in</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <div id="searchcontainer">
       <div id="logo">
-          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"
+          <img src="images/googlelogo.png" alt="Google Logo"
         class="logo">
       </div>
         <div id="searchbarcontainer">
         <i class="fa fa-search icon"></i>
-          <input type="text" class="searchbar">
+          <input type="text" class="searchbar"> 
+            <img src="images/googlemic.png" class="mic">
+          
+          
         </div>
         <div class="searchbar-buttons">
-           <button type="submit" >
-        Google Search
-        </button>
-        <button type="submit">
-          I'm Feeling Lucky
-        </button>
+           <input type="submit" Value="Google Search" class="googlesearch" >
+        <input type="submit" value="I'm Feeling Lucky" class="feelinglucky">
         </div>
-
     </div>
   </main>
  
  
  
- <div id="country">Country here</div>
+ 
   <footer>
-
-    <nav class="bottomnav1">
+  <div id="country">Philippines</div>
+<nav>
+    <div class="bottomnav1">
 
           <ul>
           <li>Advertising</li>
@@ -52,14 +50,15 @@
           <li>About</li>
           <li>How Search works</li>
         </ul>
-    </nav>
-    <nav class="bottomnav2">
+    </div>
+    <div class="bottomnav2">
       <ul>
         <li>Privacy</li>
         <li>Settings</li>
       </ul>
-    </nav>
-  </footer>
-  
+    </div>  
+</nav>
+
+  </footer>  
 </body>
 </html>
